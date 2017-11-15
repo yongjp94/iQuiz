@@ -12,7 +12,7 @@ class TableViewController: UIViewController, UITableViewDelegate, UITableViewDat
 	
 	let titleData = ["Mathematics", "Marvel Super Heroes", "Science"]
 	let subTitleData = ["Mathematics", "Marvel Super Heroes", "Science"]
-	let allQuestion : quizData = quizData()
+	let allQuestion : QuizData = QuizData()
 	var rowNum = -1;
 	
 	// cell reuse id (cells that scroll out of view can be reused)

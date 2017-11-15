@@ -10,8 +10,8 @@ import UIKit
 
 class QuizViewController: UIViewController {
 
-	var questionVault : quizData? = nil
-	var currQuestion : quizItem? = nil
+	var questionVault : QuizData? = nil
+	var currQuestion : QuizItem? = nil
 	var scoreBundle = scoreData()
 	
     override func viewDidLoad() {

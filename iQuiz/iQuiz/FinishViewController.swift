@@ -27,9 +27,9 @@ class FinishViewController: QuizViewController {
 		let currScore = myScore
 		score.text = String(currScore)
 		if currScore > 0.8 {
-			conclusion.text = "Awesome"
+			conclusion.text = "Great job! You got a high score!"
 		} else {
-			conclusion.text = "Meh..."
+			conclusion.text = "Hmmm.. might want to study up!"
 		}
         // Do any additional setup after loading the view.
     }
